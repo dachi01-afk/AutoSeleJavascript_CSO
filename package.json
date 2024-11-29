@@ -1,0 +1,19 @@
+{
+  "name": "cso",
+  "version": "1.0.0",
+  "main": "CsoLogin.js",
+  "scripts": {
+    "test": "mocha --no--timeout --reporter mochawesome --reporter-option reportDir=./CSOReport,reportFilename=index"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "chromedriver": "^130.0.4",
+    "mocha": "^10.8.2",
+    "mochawesome": "^7.1.3",
+    "selenium-webdriver": "^4.26.0"
+  }
+}
